@@ -1,0 +1,24 @@
+{
+  "name": "swag/spellpayment",
+  "description": "Luminor payment gateway plugin",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Viktoras Kazbaras"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SwagSpellPayment\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagSpellPayment\\SwagSpellPayment",
+    "label": {
+      "de-DE": "Luminor payment gateway plugin",
+      "en-GB": "Luminor payment gateway plugin"
+    }
+  }
+}
